@@ -1,0 +1,15 @@
+/* Existing styles for the ecommerce website */
+
+.product {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover .product-image {
+    transform: scale(1.1);
+    z-index: 1;
+}

@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(225, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: var(#0a99a7);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section.banner {
+    background-color: #f1f1f1;
+    padding: 50px;
+    text-align: center;
+}
+
+section.products {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 200px;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #090909;
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #08d72e;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100px;
+
+}
+/* Existing styles for the ecommerce website */
+
+.product {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover .product-image {
+    transform: scale(1.1);
+    z-index: 1;
+}
+/* Existing styles for the ecommerce website */
+
+button {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: #08d72e;
+}
+/* Existing styles for the ecommerce website */
+
+button.add-to-cart {
+    transition: transform 0.3s ease-in-out;
+    border-radius: 100px;
+    font-family:Georgia, 'Times New Roman';
+    font-size: larger;
+    font-weight: bold;
+    border-color: aqua;
+
+}
+button.add-to-cart:hover {
+    transform: scale(1.1);
+    color: #08d72e;
+    background-color: aqua;
+}
+
+/* Existing styles for the ecommerce website */
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"],
+.search-bar button {
+    margin: 0 5px;
+}
+/* Existing styles for the ecommerce website */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 8px 16px;
+    font-size: 16px;
+}
+input {
+    color: rgb(239, 147, 17);
+    background-color: rgb(11, 220, 217);
+    border-radius: 5px;
+    border-color: blanchedalmond;
+}
+
+.call-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul li {
+    margin-bottom: 10px;
+  }
+
+  ul li i {
+    margin-right: 5px;
+  }
+
+  ul li a {
+    color: #161515;
+    transition: color 0.3s ease;
+    font-weight: bold; /* Set the font weight */
+    font-family: Arial, sans-serif; /* Set the font family */
+  }
+
+  ul li a:hover {
+    color: #00FF00; /* Set the color when the link is hovered over */
+  }
+
+  h3 {
+    color: var(#b25f5f);
+  }
